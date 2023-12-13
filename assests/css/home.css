@@ -1,0 +1,85 @@
+body{
+    background-color: grey;
+    
+}
+.full{
+    border: 1px solid black;
+    background-color: white;
+    height: auto;
+    width: 60%;
+    margin:-9 auto;
+}
+.content{
+    border: 1px solid transparent;
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.text{
+    font-size: 25px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: none;
+    border: none;
+}
+.Catogry{
+    font-size: 20px;
+    border: none;
+}
+.ver{
+    border: 1px solid lightslategray;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+.sub-date{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.date{
+    border: none;
+}
+.task{
+    font-size: 30px;
+    margin-left: 25%;
+    background-color: grey;
+}
+#delete{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -63px;
+    font-size: 30px;
+    background-color: lightcoral;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sub-catogry{
+    border: 1px solidrgb(240, 201, 128);
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    font-size:25px ;
+    margin-top: -50px;
+    margin-left: 600px;
+    background-color: rgb(240, 201, 128);
+    box-shadow: 1px 1px 1px 1px lightcoral;
+    cursor: pointer;
+}
+#checkbox{
+    margin-top: -50px;
+    width: 20px;
+    height: 20px;
+    margin-left: -25px;
+}
